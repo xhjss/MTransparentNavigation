@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B60B6B791C8FFBC700C7695C /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = B60B6B721C8FFBC700C7695C /* SVIndefiniteAnimatedView.m */; };
+		B60B6B7A1C8FFBC700C7695C /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B60B6B741C8FFBC700C7695C /* SVProgressHUD.bundle */; };
+		B60B6B7B1C8FFBC700C7695C /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B60B6B761C8FFBC700C7695C /* SVProgressHUD.m */; };
+		B60B6B7C1C8FFBC700C7695C /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B60B6B781C8FFBC700C7695C /* SVRadialGradientLayer.m */; };
 		B62535BD1C8E5FC90029E5BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B62535BC1C8E5FC90029E5BB /* main.m */; };
 		B62535C01C8E5FC90029E5BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B62535BF1C8E5FC90029E5BB /* AppDelegate.m */; };
 		B62535C31C8E5FC90029E5BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B62535C21C8E5FC90029E5BB /* ViewController.m */; };
@@ -15,6 +19,12 @@
 		B62535CB1C8E5FC90029E5BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B62535C91C8E5FC90029E5BB /* LaunchScreen.storyboard */; };
 		B62535D61C8E5FC90029E5BB /* MTransparentNavigationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B62535D51C8E5FC90029E5BB /* MTransparentNavigationTests.m */; };
 		B62535E11C8E5FC90029E5BB /* MTransparentNavigationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B62535E01C8E5FC90029E5BB /* MTransparentNavigationUITests.m */; };
+		B62535F01C8E601E0029E5BB /* UIImage+fixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = B62535EF1C8E601E0029E5BB /* UIImage+fixOrientation.m */; };
+		B62535F21C8E65750029E5BB /* bg_usercenter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B62535F11C8E65750029E5BB /* bg_usercenter@2x.png */; };
+		B62535F51C8E684B0029E5BB /* MViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B62535F41C8E684B0029E5BB /* MViewController.m */; };
+		B68EFF741C900E8A009AF07B /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B68EFF721C900E8A009AF07B /* Photos.framework */; };
+		B68EFF751C900E8A009AF07B /* PhotosUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B68EFF731C900E8A009AF07B /* PhotosUI.framework */; };
+		F1D8D3C3791B6B188AC63022 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB4474D0EBD163CC1D06881 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		37B86E0AA7040B8459C6D58A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		A187BAD9911DEB6E9D7E4EB3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		B60B6B711C8FFBC700C7695C /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		B60B6B721C8FFBC700C7695C /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		B60B6B731C8FFBC700C7695C /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		B60B6B741C8FFBC700C7695C /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		B60B6B751C8FFBC700C7695C /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		B60B6B761C8FFBC700C7695C /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		B60B6B771C8FFBC700C7695C /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		B60B6B781C8FFBC700C7695C /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
 		B62535B81C8E5FC90029E5BB /* MTransparentNavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTransparentNavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B62535BC1C8E5FC90029E5BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B62535BE1C8E5FC90029E5BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +71,14 @@
 		B62535DC1C8E5FC90029E5BB /* MTransparentNavigationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTransparentNavigationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B62535E01C8E5FC90029E5BB /* MTransparentNavigationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTransparentNavigationUITests.m; sourceTree = "<group>"; };
 		B62535E21C8E5FC90029E5BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B62535EE1C8E601E0029E5BB /* UIImage+fixOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+fixOrientation.h"; sourceTree = "<group>"; };
+		B62535EF1C8E601E0029E5BB /* UIImage+fixOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+fixOrientation.m"; sourceTree = "<group>"; };
+		B62535F11C8E65750029E5BB /* bg_usercenter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_usercenter@2x.png"; sourceTree = "<group>"; };
+		B62535F31C8E684B0029E5BB /* MViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MViewController.h; sourceTree = "<group>"; };
+		B62535F41C8E684B0029E5BB /* MViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MViewController.m; sourceTree = "<group>"; };
+		B68EFF721C900E8A009AF07B /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		B68EFF731C900E8A009AF07B /* PhotosUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhotosUI.framework; path = System/Library/Frameworks/PhotosUI.framework; sourceTree = SDKROOT; };
+		FAB4474D0EBD163CC1D06881 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +86,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B68EFF741C900E8A009AF07B /* Photos.framework in Frameworks */,
+				B68EFF751C900E8A009AF07B /* PhotosUI.framework in Frameworks */,
+				F1D8D3C3791B6B188AC63022 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,13 +109,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		146D2886BAAFDA8FDBC0BDC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAB4474D0EBD163CC1D06881 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1BCD914B2F2F1A31DEDE8C5D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A187BAD9911DEB6E9D7E4EB3 /* Pods.debug.xcconfig */,
+				37B86E0AA7040B8459C6D58A /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B60B6B701C8FFBC700C7695C /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				B60B6B711C8FFBC700C7695C /* SVIndefiniteAnimatedView.h */,
+				B60B6B721C8FFBC700C7695C /* SVIndefiniteAnimatedView.m */,
+				B60B6B731C8FFBC700C7695C /* SVProgressHUD-Prefix.pch */,
+				B60B6B741C8FFBC700C7695C /* SVProgressHUD.bundle */,
+				B60B6B751C8FFBC700C7695C /* SVProgressHUD.h */,
+				B60B6B761C8FFBC700C7695C /* SVProgressHUD.m */,
+				B60B6B771C8FFBC700C7695C /* SVRadialGradientLayer.h */,
+				B60B6B781C8FFBC700C7695C /* SVRadialGradientLayer.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
 		B62535AF1C8E5FC90029E5BB = {
 			isa = PBXGroup;
 			children = (
+				B68EFF721C900E8A009AF07B /* Photos.framework */,
+				B68EFF731C900E8A009AF07B /* PhotosUI.framework */,
 				B62535BA1C8E5FC90029E5BB /* MTransparentNavigation */,
 				B62535D41C8E5FC90029E5BB /* MTransparentNavigationTests */,
 				B62535DF1C8E5FC90029E5BB /* MTransparentNavigationUITests */,
 				B62535B91C8E5FC90029E5BB /* Products */,
+				1BCD914B2F2F1A31DEDE8C5D /* Pods */,
+				146D2886BAAFDA8FDBC0BDC9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,8 +168,14 @@
 		B62535BA1C8E5FC90029E5BB /* MTransparentNavigation */ = {
 			isa = PBXGroup;
 			children = (
+				B60B6B701C8FFBC700C7695C /* SVProgressHUD */,
+				B62535F11C8E65750029E5BB /* bg_usercenter@2x.png */,
+				B62535EE1C8E601E0029E5BB /* UIImage+fixOrientation.h */,
+				B62535EF1C8E601E0029E5BB /* UIImage+fixOrientation.m */,
 				B62535BE1C8E5FC90029E5BB /* AppDelegate.h */,
 				B62535BF1C8E5FC90029E5BB /* AppDelegate.m */,
+				B62535F31C8E684B0029E5BB /* MViewController.h */,
+				B62535F41C8E684B0029E5BB /* MViewController.m */,
 				B62535C11C8E5FC90029E5BB /* ViewController.h */,
 				B62535C21C8E5FC90029E5BB /* ViewController.m */,
 				B62535C41C8E5FC90029E5BB /* Main.storyboard */,
@@ -147,9 +220,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B62535E51C8E5FC90029E5BB /* Build configuration list for PBXNativeTarget "MTransparentNavigation" */;
 			buildPhases = (
+				D5CFA3E58E9238318589BEC4 /* Check Pods Manifest.lock */,
 				B62535B41C8E5FC90029E5BB /* Sources */,
 				B62535B51C8E5FC90029E5BB /* Frameworks */,
 				B62535B61C8E5FC90029E5BB /* Resources */,
+				A6E2F3D961DDFF9078AE7245 /* Embed Pods Frameworks */,
+				011CB228BD3BF818AE4A3E5C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -243,7 +319,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B60B6B7A1C8FFBC700C7695C /* SVProgressHUD.bundle in Resources */,
 				B62535CB1C8E5FC90029E5BB /* LaunchScreen.storyboard in Resources */,
+				B62535F21C8E65750029E5BB /* bg_usercenter@2x.png in Resources */,
 				B62535C81C8E5FC90029E5BB /* Assets.xcassets in Resources */,
 				B62535C61C8E5FC90029E5BB /* Main.storyboard in Resources */,
 			);
@@ -265,6 +343,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		011CB228BD3BF818AE4A3E5C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6E2F3D961DDFF9078AE7245 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5CFA3E58E9238318589BEC4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B62535B41C8E5FC90029E5BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -272,7 +398,12 @@
 			files = (
 				B62535C31C8E5FC90029E5BB /* ViewController.m in Sources */,
 				B62535C01C8E5FC90029E5BB /* AppDelegate.m in Sources */,
+				B62535F01C8E601E0029E5BB /* UIImage+fixOrientation.m in Sources */,
+				B60B6B7C1C8FFBC700C7695C /* SVRadialGradientLayer.m in Sources */,
+				B60B6B7B1C8FFBC700C7695C /* SVProgressHUD.m in Sources */,
 				B62535BD1C8E5FC90029E5BB /* main.m in Sources */,
+				B62535F51C8E684B0029E5BB /* MViewController.m in Sources */,
+				B60B6B791C8FFBC700C7695C /* SVIndefiniteAnimatedView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +542,7 @@
 		};
 		B62535E61C8E5FC90029E5BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A187BAD9911DEB6E9D7E4EB3 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MTransparentNavigation/Info.plist;
@@ -422,6 +554,7 @@
 		};
 		B62535E71C8E5FC90029E5BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37B86E0AA7040B8459C6D58A /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MTransparentNavigation/Info.plist;
@@ -498,6 +631,7 @@
 				B62535E71C8E5FC90029E5BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B62535E81C8E5FC90029E5BB /* Build configuration list for PBXNativeTarget "MTransparentNavigationTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +640,7 @@
 				B62535EA1C8E5FC90029E5BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B62535EB1C8E5FC90029E5BB /* Build configuration list for PBXNativeTarget "MTransparentNavigationUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +649,7 @@
 				B62535ED1C8E5FC90029E5BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
